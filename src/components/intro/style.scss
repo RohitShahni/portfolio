@@ -1,3 +1,6 @@
+@import "../../style-config/variable.scss";
+@import "../../style-config/mixins.scss";
+
 .intro-section {
   width: 100%;
   height: 100vh;
@@ -6,6 +9,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+
 
 
   .vector-bg {
@@ -36,7 +40,8 @@
     z-index: 1;
     mix-blend-mode: soft-light;
   }
-  .content{
+
+  .content {
     width: 1200px;
     padding: 0 20px;
     position: relative;
