@@ -12,7 +12,7 @@ const Section = ({children, id, className, title, background}) => {
             <h2>{title}</h2>
           </div>
         )}
-        {children}s
+        {children}
       </div>
 
     </div>

@@ -6,10 +6,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 20px;
+  @include small-screen {
+    margin-top: 60px;
+  }
 
   .app-logo {
-    width: 143px;
+    width: 100px;
+    flex-shrink: 0;
+    @include small-screen {
+      width: 143px;
+    }
 
     img {
       width: 100%;
@@ -17,8 +24,31 @@
   }
 
   .navigation {
-    display: flex;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: $black;
+    z-index: 9;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    @include small-screen {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      width: auto;
+      height: auto;
+      gap: unset;
+      background-color: transparent;
+    }
+
+    &.active {
+      display: flex;
+    }
 
     .navigation-item {
       color: $white;

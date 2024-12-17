@@ -17,7 +17,7 @@ const Intro = () => {
 
       <div className={'content'}>
         <NavigationBar/>
-        <IntroContent/>
+        {/*<IntroContent/>*/}
       </div>
     </div>
   )
