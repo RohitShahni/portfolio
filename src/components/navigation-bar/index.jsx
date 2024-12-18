@@ -25,7 +25,17 @@ const NavigationBar = () => {
           alt={'rohit developer'}
         />
       </div>
-      <div className={'navigation'}>
+
+      <div className={'mobile-menu'}
+           onClick={() => {
+             setMobileMenu(!mobileMenu)
+           }}>
+        {mobileMenu ? (
+          <IoMdClose size={24} color={'#fff'}/>
+        ) : (<CgMenuRight size={24} color={'#fff'}/>)}
+      </div>
+
+      <div className={`navigation ${mobileMenu ? 'active' : ''}`}>
 
         <span className={'navigation-item'} onClick={() => {
           menuItemClickHandler('skills')
