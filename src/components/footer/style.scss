@@ -14,6 +14,9 @@
 
   .footer-logo {
     width: 150px;
+    @include small-screen {
+      width: 120px;
+    }
 
     img {
       display: block;
@@ -34,6 +37,10 @@
       color: $white;
       margin: 0 12.5px;
       cursor: pointer;
+      @include small-screen {
+        margin: 0 10px;
+        @include typography(12px, 400, 20px)
+      }
 
       &:hover {
         opacity: 0.5;
@@ -45,6 +52,11 @@
     display: flex;
     align-items: center;
     margin-top: 30px;
+    transform: scale(1);
+    @include small-screen {
+      margin-top: 15px;
+      transform: scale(0.7);
+    }
 
     .social-icon {
       width: 45px;
@@ -73,6 +85,10 @@
     text-align: center;
     justify-content: center;
     margin-top: 75px;
+    @include small-screen {
+      height: 50px;
+      margin-top: 25px;
+    }
 
     .copyright-text {
       color: #777777;

@@ -5,16 +5,28 @@
 .query-form {
   width: calc(100% - 375px);
   margin-left: 20px;
+  @include small-screen {
+    width: 100%;
+    margin-left: 0;
+  }
 
   form {
     display: flex;
     flex-flow: row wrap;
     margin-top: -10px;
+    @include small-screen {
+      margin-top: 25px;
+
+    }
   }
 
   .input-field {
     width: calc(50% - 20px);
     margin: 10px;
+    @include small-screen {
+      margin-bottom: 10px;
+      width: 100%;
+    }
 
     &.full-width {
       width: 100%;
@@ -69,6 +81,5 @@
     margin-left: 10px;
     margin-top: 10px;
     cursor: pointer;
-
   }
 }

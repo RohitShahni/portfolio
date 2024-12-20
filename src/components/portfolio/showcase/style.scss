@@ -7,6 +7,12 @@
   margin-left: -10px;
   margin-right: -10px;
   height: 570px;
+  justify-content: unset;
+  @include small-screen {
+    justify-content: center;
+    height: auto;
+  }
+
 
   .showcase-item {
     width: 265px;
@@ -17,6 +23,11 @@
     position: relative;
     cursor: pointer;
     @include transition;
+    @include small-screen {
+      width: 150px;
+      height: 150px;
+      border-radius: 6px;
+    }
 
     img {
       width: 100%;
@@ -37,6 +48,15 @@
       border-radius: 10px;
       @include glassmorphism-effect;
       @include transition;
+      width: fit-content;
+      @include small-screen {
+        visibility: visible;
+        opacity: 1;
+        left: 0;
+        margin-right: 0;
+        border-radius: 0;
+        width: 100%;
+      }
 
       h3 {
         color: $black;
