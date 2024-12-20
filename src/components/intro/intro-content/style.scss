@@ -112,11 +112,11 @@
       }
 
       img {
-        width: 100%;
         display: block;
         margin-bottom: 40px;
         @include small-screen {
           margin-bottom: 30px;
+          width: 100%;
         }
         @include large-screen {
           margin-bottom: 50px;

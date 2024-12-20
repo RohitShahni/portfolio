@@ -20,11 +20,11 @@ const Skills = () => {
         </div>
         <div className={'right-col'}>
           <h2>Skills</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has
+          <p>Dedicated Frontend Developer with a proven track record of
+            creating visually stunning and highly functional web applications.
+            Bringing 3 years of experience in web development and a strong
+            command of React, Redux, HTML, and CSS to deliver responsive
+            and user-centric designs.
           </p>
           <CallToAction text={'Download CV'}
                         icon={<AiOutlineCloudDownload/>}/>

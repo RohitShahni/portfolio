@@ -2,6 +2,7 @@ import React from "react";
 import './style.scss'
 import hand from '../../../../src/images/hand.png'
 import rohitImg from '../../../../src/images/rohitImg.jpeg'
+import backgroundlogo from '../../../images/backgroundlogo.png';
 import girl from '../../../../src/images/girl.png'
 import CallToAction from "../../shared/CallToAction";
 import callToAction from "../../shared/CallToAction";
@@ -24,15 +25,17 @@ const IntroContent = () => {
             </span>
             <span className={'big-text'}>Rohit Dev </span>
           </h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has</p>
+          <p>Dedicated Frontend Developer with a proven track record of
+            creating visually stunning and highly functional web applications.
+            Bringing 3 years of experience in web development and a strong
+            command of React, Redux, HTML, and CSS to deliver responsive
+            and user-centric designs.</p>
           <CallToAction text={'Contact me'} action={() => {
             scrollToSection('contact')
           }}/>
         </div>
         <div className={'right-col'}>
-          <img src={girl} alt="rohit image"/>
+          <img src={backgroundlogo} alt="rohit image"/>
 
           <div className={'highlights horizontal'}>
             <div className={'icon'}>
