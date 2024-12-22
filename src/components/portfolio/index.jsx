@@ -8,66 +8,74 @@ import Showcase from "./showcase";
 const projectsData = [
   {
     id: 1,
-    name: "Healthy Food Restraunt",
+    name: "My Portfolio Website",
     tags: ["web-app", "mobile-app"],
+    path:'https://rohitdev-portfolio.netlify.app/',
     media: {
-      thumbnail: require("../../images/portfolio/thumb-7.jpg"),
+      thumbnail: require("../../images/portfolio/portfolioimg.png"),
     },
   },
   {
     id: 2,
-    name: "Anna & Daniel",
-    tags: ["web-page"],
+    name: "Spotmentor Landing Page",
+    tags: ["web-page","product"],
+    path:'https://www.spotmentor.com/',
     media: {
-      thumbnail: require("../../images/portfolio/thumb-2.jpg"),
+      thumbnail: require("../../images/portfolio/spotmentor.png"),
     },
   },
   {
     id: 3,
-    name: "Web Design Landing Page",
+    name: "YouTube Clone",
     tags: ["web-page"],
+    path:'https://youtube-clone-developed-by-rohit.netlify.app/',
     media: {
-      thumbnail: require("../../images/portfolio/thumb-8.jpg"),
+      thumbnail: require("../../images/portfolio/youtube.png"),
     },
   },
   {
     id: 4,
-    name: "Business Analytics Web App",
-    tags: ["web-app", "mobile-app"],
+    name: "My Organisation",
+    tags: ["web-app"],
+    path:'https://galaxysurfactants.test.spotmentor.com/admin/my-organisation',
     media: {
-      thumbnail: require("../../images/portfolio/thumb-1.jpg"),
+      thumbnail: require("../../images/portfolio/myorg.png"),
     },
   },
   {
     id: 5,
-    name: "Limitless",
-    tags: ["web-app", "web-page"],
+    name: "Ecommerce Website",
+    tags: ["web-app", "web-page",'product'],
+    path:'https://mini-ecommerce-app-developed-by-rohit.netlify.app/',
     media: {
-      thumbnail: require("../../images/portfolio/thumb-6.jpg"),
+      thumbnail: require("../../images/portfolio/ecommerce.png"),
     },
   },
   {
     id: 6,
-    name: "Dashboard",
+    name: "Todo List",
     tags: ["product", "web-app", "mobile-app"],
+    path:'https://todo-app-developed-by-rohit.netlify.app/',
     media: {
-      thumbnail: require("../../images/portfolio/thumb-4.jpg"),
+      thumbnail: require("../../images/portfolio/todolist.png"),
     },
   },
   {
     id: 7,
-    name: "Digital Creative Agency",
+    name: "Drumkit",
     tags: ["web-app"],
+    path:'https://mini-drumkit-developed-by-rohit.netlify.app/',
     media: {
-      thumbnail: require("../../images/portfolio/thumb-3.jpg"),
+      thumbnail: require("../../images/portfolio/drumkit.png"),
     },
   },
   {
     id: 8,
-    name: "Virtual Reality Experience",
-    tags: ["web-app", "mobile-app", "web-page"],
+    name: "Favourite Tv & show ",
+    tags: ["web-app", "web-page"],
+    path:'https://rohitshahni.github.io/My_favourite/',
     media: {
-      thumbnail: require("../../images/portfolio/thumb-5.jpg"),
+      thumbnail: require("../../images/portfolio/tvshow.png"),
     },
   },
 ]

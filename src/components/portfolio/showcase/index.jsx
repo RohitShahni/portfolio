@@ -15,13 +15,15 @@ const Showcase = ({data, transition}) => {
             : transition === 'zoomIn'
               ? 'zoomIn'
               : ''}`}>
-          <div className={'meta-content'}>
-            <h3>{project.name}</h3>
-            <div className={'go-to-cta'}>
-              <span className={'text'}>Projects Details</span>
-              <Arrow/>
+          <a href={project.path} target="_blank" rel="noopener noreferrer">
+            <div className={'meta-content'}>
+              <h3>{project.name}</h3>
+              <div className={'go-to-cta'}>
+                <span className={'text'}>Projects Details</span>
+                <Arrow/>
+              </div>
             </div>
-          </div>
+          </a>
           <img src={project.media.thumbnail} alt={'image'}/>
         </div>
       ))}
