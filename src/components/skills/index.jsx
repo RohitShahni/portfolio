@@ -26,7 +26,8 @@ const Skills = () => {
             command of React, Redux, HTML, and CSS to deliver responsive
             and user-centric designs.
           </p>
-          <CallToAction text={'Download CV'}
+          <CallToAction
+            text={'Download CV'}
                         icon={<AiOutlineCloudDownload/>}/>
         </div>
       </div>
