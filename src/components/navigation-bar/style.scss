@@ -40,6 +40,7 @@
     width: auto;
     height: auto;
     gap: unset;
+    align-items: center;
     background-color: transparent;
     @include small-screen {
       align-items: center;

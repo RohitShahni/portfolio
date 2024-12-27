@@ -3,7 +3,8 @@ import React from "react";
 import './style.scss';
 import Section from "../shared/section";
 import Logo from '../../images/logo.png';
-import rohitLogo from '../../images/rohitdev.jpeg'
+// import rohitLogo from '../../images/rohitdev.jpeg'
+import rohitLogo from '../../images/rohitdev3.png'
 import SocialIcon from "./social-icon";
 
 import {
